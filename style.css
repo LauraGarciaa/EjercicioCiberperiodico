@@ -17,8 +17,8 @@ article{
     border-style: groove;
     padding: 10px;
     margin-top: 5%;
-    border:5px solid black;
-    border-radius: 20px;
+    border:5px solid rgba(22, 22, 22, 0.856);
+    border-radius: 30px;
 
 }
 
@@ -45,10 +45,33 @@ h1{
     font-size: 50px;
     font-style:  oblique;
     font-family:"Latin Modern Roman"; 
+    color: whitesmoke;
+}
+.titulo{
+    background-color: rgba(22, 22, 22, 0.856);
 }
 .last-article-left {
     margin-left: 15%;
 }
 .last-article-right {
     margin-right: 15%;
+}
+
+nav,ul,li{
+    height: 100%;
+    text-align: center;
+    margin-inline: 5px;
+}
+nav > ul > li{
+    list-style:none;
+    display: inline;
+    padding: 24px 4px;
+   
+}
+nav > ul > li:hover{
+    background-color: #7b7472c7;
+}
+nav > ul > li > a {
+    text-decoration: none;
+    color:black;
 }
